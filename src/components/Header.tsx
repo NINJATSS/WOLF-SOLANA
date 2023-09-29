@@ -14,10 +14,10 @@ export const Header: React.FC<React.PropsWithChildren> = ({ children }) => {
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
           <div className={styles.externalLinks}>
             <a href="https://discord.gg/mXmPtZykJK" target="_blank" rel="noreferrer">
-              <FaDiscord />
+              Discord
             </a>
             <a href="https://twitter.com/WolfSolanaNFT" target="_blank" rel="noreferrer">
-              <FaTwitter />
+              Twitter
             </a>
           </div>
           {children}
