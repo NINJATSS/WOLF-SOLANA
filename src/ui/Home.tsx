@@ -14,17 +14,6 @@ export function Home() {
         <p style={{ wordWrap: 'break-word' }}>
           An open source, decentralized casino built on Gamba.
         </p>
-        <div style={{ display: 'flex', gap: '10px' }}>
-          <Button
-            as="a"
-            color="white"
-            href="https://gamba.so"
-            target="_blank"
-            icon={<Icon.ExternalLink />}
-          >
-            Learn more
-          </Button>
-        </div>
       </Section>
     </div>
   )
